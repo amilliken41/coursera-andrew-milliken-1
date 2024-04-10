@@ -1,1 +1,123 @@
-
+@charset "utf-8";
+/* CSS Document */
+/* font-family: Raleway */
+/* <uniquifier>: Use a unique and descriptive class name
+/* <weight>: Use a value from 100 to 900 */
+.raleway-module2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* font-family added to body in 2 different ways as backup */
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  margin: 0px;
+}
+h1 {
+  margin: 15px 7px;
+  font-size: 1.75em;
+}
+.main-container {
+  width: 100%;
+  height: auto;
+}
+.card-milliken {
+  box-sizing: border-box;
+  border: 1px #444 solid;
+  background: #d8dcdb;
+}
+.card-milliken-description {
+  padding: 15px;
+  font-size: 12px;
+  color: #000;
+  clear: right;
+}
+.card-milliken-title-chx {
+  position: relative;
+  /* prevent doubling of borders  */
+  right: -1px;
+  top: -1px;
+  /* End prevent doubling borders */
+  float: right;
+  min-width: 33%;
+  max-width: 50%;
+  background-color: #0074bd;
+  color: #fff;
+  border: 1px #343741 solid;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 10px 10px;
+}
+.card-milliken-title-beef {
+  position: relative;
+  /* prevent doubling of borders  */
+  right: -1px;
+  top: -1px;
+  /* End prevent doubling borders */
+  float: right;
+  min-width: 33%;
+  max-width: 50%;
+  background-color: #FFAE00;
+  color: #fff;
+  border: 1px #343741 solid;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 10px 10px;
+}
+.card-milliken-title-sushi {
+  position: relative;
+  /* prevent doubling of borders  */
+  right: -1px;
+  top: -1px;
+  /* End prevent doubling borders */
+  float: right;
+  min-width: 33%;
+  max-width: 50%;
+  background-color: #15801E;
+  color: #fff;
+  border: 1px #343741 solid;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 10px 10px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/* Mobile (small) */
+@media (max-width: 767px) {
+  .col-sm-1 {
+    float: left;
+    width: 95%;
+    margin: 0px 0px 5px 5px;
+  }
+}
+/* Tablet (medium)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    margin: 0px 0px 5px 5px;
+  }
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    max-width: 96.5%;
+  }
+}
+/* Desktop  (large) */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 32%;
+    margin: 5px 0px 5px 5px;
+  }
+}
